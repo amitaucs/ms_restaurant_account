@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: restaurant_accounting
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/restaurant
+    username: root
+    password: root1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+server:
+  port: 8002
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      expose: "*"
