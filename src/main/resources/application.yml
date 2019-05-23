@@ -2,9 +2,9 @@ spring:
   application:
     name: restaurant_accounting
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/restaurant
+    url: jdbc:mysql://127.0.0.1:3306/resaccount
     username: root
-    password: root1234
+    password:
   jpa:
     hibernate:
       ddl-auto: create
