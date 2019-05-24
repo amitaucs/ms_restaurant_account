@@ -28,7 +28,7 @@ public class RabbitMqConfig {
 
     @Bean
     MessageListenerAdapter listenerAdapter(ClientRegistrationEventReveiver receiver) {
-        return new MessageListenerAdapter(receiver, "receive new client registry");
+        return new MessageListenerAdapter(receiver, "receiveClientRegisteredEvent");
     }
 
 }
