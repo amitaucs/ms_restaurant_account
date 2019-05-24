@@ -10,6 +10,13 @@ spring:
       ddl-auto: create
     show-sql: true
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: amit
+    password: amit
+
+
 server:
   port: 8002
 
