@@ -4,6 +4,4 @@ applications:
     disk_quota: 1G
     instances: 1
     memory: 1G
-    routes:
-      - route: restaurant-accounting.apps.sys.pas-useast1.gcp-wipro.com
     stack: cflinuxfs3
