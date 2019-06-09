@@ -1,0 +1,9 @@
+applications:
+  - name: restaurant-accounting
+    path: ./target/accounting-1.0.0.jar
+    disk_quota: 1G
+    instances: 1
+    memory: 1G
+    routes:
+      - route: restaurant-accounting.apps.sys.pas-useast1.gcp-wipro.com
+    stack: cflinuxfs3
